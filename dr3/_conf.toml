@@ -1,0 +1,17 @@
+schema="applause_dr3"
+delimiter=","
+
+[datatypes]
+archive_id="integer"
+num_plates="integer NULL"
+num_logpages="integer NULL"
+num_notes="integer NULL"
+num_envelopes="integer NULL"
+num_previews="integer NULL"
+logbook_id="integer"
+logbook_type="integer NULL"
+logpage_id="integer"
+logpage_type="integer NULL"
+preview_id="integer"
+scan_id="integer"
+plate_id="integer"
