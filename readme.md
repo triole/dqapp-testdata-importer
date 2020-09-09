@@ -18,6 +18,19 @@ Let's take Applause as an example. Testdata can be retrieved via the [Query Inte
 select * from applause_dr3.archive
 ```
 
+This is what my `dr3` folder looks like when I have data in it.
+
+```
+archive.csv
+_conf.toml
+logbook.csv
+logpage.csv
+plate.csv
+plate_logpage.csv
+preview.csv
+scan.csv
+```
+
 ## How to?
 
 If you are in a docker setup. Mount this script and the table data inside a subfolder into the your `pgdata` container. Then run `import.sh <DATA_FOLDER>`. That should be it.
