@@ -3,7 +3,8 @@
 <!--- mdtoc: toc begin -->
 
 1.	[Synopsis](#synopsis)
-2.	[Retrieve Data](#retrieve-data)<!--- mdtoc: toc end -->
+2.	[Retrieve Data](#retrieve-data)
+3.	[How to?](#how-to-)<!--- mdtoc: toc end -->
 
 ## Synopsis
 
@@ -16,3 +17,7 @@ Let's take Applause as an example. Testdata can be retrieved via the [Query Inte
 ```sql
 select * from applause_dr3.archive
 ```
+
+## How to?
+
+If you are in a docker setup. Mount this script and the table data inside a subfolder into the your `pgdata` container. Then run `import.sh <DATA_FOLDER>`. That should be it.
